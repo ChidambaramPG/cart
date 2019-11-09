@@ -1,10 +1,16 @@
+/* 
+Author: Chidambaram
+Date: 08/11/2019
+Template: Home.vue
+Usage: container for the application views, data loaded on creation of this 
+*/
 <template>
   <div class="">
     <main class="wrapper">
       <Header/>
       <section class="products-section">
         <ul>
-          <TestProd v-for="(product,index) in products" :key="index" :data="product"/>
+          <Product v-for="(product,index) in products" :key="index" :data="product"/>
         </ul>
       </section>
     </main>
@@ -14,11 +20,10 @@
 </template>
 
 <script>
-// import Product from "../components/home/Product.vue";
+import Product from "../components/home/Product.vue";
 import Header from "../components/shared/Header.vue";
 import Footer from "../components/shared/Footer.vue";
 import CheckoutModal from "../components/modal/CheckoutModal.vue";
-import TestProd from "../components/home/TestProd.vue";
 
 export default {
   name: "home",
@@ -28,24 +33,29 @@ export default {
     };
   },
   computed: {
+
+    // adding checkout modal to the view dynamically
     addModalToView() {
       return this.$store.state.showCheckoutModal;
     }
+
   },
   created() {
+
+    // fetch poducts data stored in json file
     fetch("products.json")
       .then(res => res.json())
       .then(data => {
-        // console.log(data);
         this.products = data;
       });
+      
   },
   components: {
-    // Product,
+    Product,
     Header,
     Footer,
     CheckoutModal,
-    TestProd
+    // TestProd
   }
 };
 </script>

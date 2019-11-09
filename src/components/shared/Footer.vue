@@ -24,7 +24,7 @@ export default {
       items.forEach(item => {
         total += item.totalPrice;
       });
-      return total;
+      return total.toFixed(2);
     }
   },
   methods: {

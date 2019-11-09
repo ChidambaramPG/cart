@@ -1,29 +1,5 @@
-# test
+# Cart
 
-## Project setup
-```
-yarn install
-```
+About
+This is a single page applicaton to implement cart functionality in vuejs. It uses service worker to implement progressive web app features like offline capability, mobile support etc.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,8 +1,15 @@
+/* 
+Author: Chidambaram
+Date: 08/11/2019
+Template: Header.vue
+Usage: header file for the app
+*/
+
 <template>
   <section class="header-section" 
   :style="'backgroundImage:url('+require('../../assets/images/header-bg.jpg')+')'"
   >
-    <h2>Are You Hungry</h2>
+    <h2 class="header-title">Shopping Cart</h2>
     
   </section>
 </template>
@@ -19,8 +26,7 @@ export default {
 <style>
 
 .header-section {
-  /* background: url('http://localhost:8080/src/assets/images/header-bg.jpg')
-    center; */
+
   background-size: cover;
   padding: 4rem 2rem;
   display: grid;
@@ -46,5 +52,7 @@ export default {
   padding: 1rem;
   margin-top: 0.75rem;
 }
-
+.header-title{
+  text-align:center;
+}
 </style>

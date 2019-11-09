@@ -1,0 +1,122 @@
+[
+	{
+        "sku":1,
+		"brandName": "Mustake",
+		"poductName": "Beef Steak",
+		"qty": "40",
+		"mrp": "6",
+		"imageName": "beef-steak.jpeg",
+        "offerText": "5% OFF",
+        "offerPercent":"5"
+    },
+    {
+        "sku":2,
+		"brandName": "Burger Spot",
+		"poductName": "Burger and Fries",
+		"qty": "40",
+		"mrp": "6",
+		"imageName": "buger-nd-fries.jpeg",
+        "offerText": "10% OFF",
+        "offerPercent":"10"
+    },
+    {
+        "sku":3,
+		"brandName": "Burger Spot",
+		"poductName": "Burger L",
+		"qty": "40",
+		"mrp": "5",
+		"imageName": "burger.jpeg",
+        "offerText": "5% OFF",
+        "offerPercent":"5"
+    },
+    {
+        "sku":4,
+		"brandName": "Burger Spot",
+		"poductName": "Cheese Fies",
+		"qty": "40",
+		"mrp": "2",
+		"imageName": "cheese-fries.jpeg",
+        "offerText": "10% OFF",
+        "offerPercent":"10"
+    },
+    {
+        "sku":5,
+		"brandName": "Biriyani Hut",
+		"poductName": "Chicken Biriyani",
+		"qty": "40",
+		"mrp": "7",
+		"imageName": "chicken-biriyani.jpeg",
+        "offerText": "10% OFF",
+        "offerPercent":"10"
+    },
+    {
+        "sku":6,
+		"brandName": "L'l America",
+		"poductName": "Lasagnia",
+		"qty": "40",
+		"mrp": "4",
+		"imageName": "lasagnia.jpeg",
+        "offerText": "10% OFF",
+        "offerPercent":"10"
+    },
+    {
+        "sku":7,
+		"brandName": "South Spice",
+		"poductName": "Masala Dosa",
+		"qty": "40",
+		"mrp": "2",
+		"imageName": "masala-dosa.jpeg",
+        "offerText": "15% OFF",
+        "offerPercent":"15"
+    },
+    {
+        "sku":8,
+		"brandName": "L'l America",
+		"poductName": "Milk and Serials",
+		"qty": "40",
+		"mrp": "3",
+		"imageName": "milk-and-serials.jpeg",
+        "offerText": "25% OFF",
+        "offerPercent":"25"
+    },
+    {
+        "sku":9,
+		"brandName": "L'l America",
+		"poductName": "Pancakes",
+		"qty": "40",
+		"mrp": "4",
+		"imageName": "pancake.jpeg",
+        "offerText": "5% OFF",
+        "offerPercent":"5"
+    },
+    {
+        "sku":10,
+		"brandName": "L'l America",
+		"poductName": "Salad",
+		"qty": "40",
+		"mrp": "8",
+		"imageName": "salad.jpeg",
+        "offerText": "5% OFF",
+        "offerPercent":"5"
+    },
+    {
+        "sku":11,
+		"brandName": "Mustake",
+		"poductName": "Salamon Steak",
+		"qty": "40",
+		"mrp": "8",
+		"imageName": "salamon-steak.jpeg",
+        "offerText": "8% OFF",
+        "offerPercent":"8"
+    },
+    {
+        "sku":12,
+		"brandName": "Mustake",
+		"poductName": "Spicy Roll",
+		"qty": "40",
+		"mrp": "4",
+		"imageName": "spicy-roll.jpeg",
+        "offerText": "8% OFF",
+        "offerPercent":"8"
+	}
+]

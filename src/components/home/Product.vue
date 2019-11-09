@@ -132,7 +132,7 @@ a {
   background-color: rgb(219, 87, 87);
   text-decoration: none;
   color: white;
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
   text-align: center;
   display: inline-block;
   transition: all 0.3s;
@@ -145,13 +145,13 @@ a:hover {
 a.add-to-cart {
   background-color: rgb(31, 168, 99);
   padding:7px;
-  width:30%;
+  width:32%;
   margin-bottom:10px;
 }
 a.remove-from-cart{
     background-color: rgb(233, 140, 35);
     padding:7px;
-    width:30%;
+    width:32%;
     margin-bottom:10px;
 }
 li {

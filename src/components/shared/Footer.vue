@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
         <div class="cart-details">
-            <h3>Total Items: <span>{{cartItems.length}}</span></h3>
-            <h3>Total Price: <span>${{cartItemsTotal}}</span></h3>
+            <h5>Total Items: <span>{{cartItems.length}}</span></h5>
+            <h5>Total Price: <span>${{cartItemsTotal}}</span></h5>
         </div>
         <div class="checkout">
             <button class="checkout-btn" @click="handleCheckout">Checkout</button>
@@ -44,7 +44,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   height: 100px;
-  background-color: #f4f4f4;
+  background-color: #e2e2e2;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -60,15 +60,15 @@ export default {
   display:block;
 }
 .checkout-btn {
-  background-color: #4caf50; 
+  background-color: rgb(31, 168, 99); 
   border: none;
   color: white;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  border-radius: 12px;
+  font-size: 14px;
+  /* border-radius: 12px; */
   margin-top: 20px;
 }
 </style>
